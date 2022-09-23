@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    transition: all 0.5s linear;
+    background-color: #26272c;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.main{
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 2rem 2.5rem;
+}
+.header{
+    background-color: #464545;
+    text-align: center;
+    padding:2rem;
+
+}
+.header h3{
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 5rem;
+
+}
+.header h3 span:first-child{
+    font-weight: 700;
+}
+.header h3 span:last-child{
+    font-weight: 700;
+    text-decoration: underline;
+}
+.header h1{
+    color: #ff0000;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+.header #p1{
+    color: #339966;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 2.1rem;
+}
+.header #p2{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 6rem;
+    text-decoration: underline;
+}
+.container{
+    padding: 2rem;
+    text-align: center;
+    background-color: #222222;
+}
+.container textarea{
+    width: 100%;
+    min-height: 20rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    padding: 1.5rem 2rem;
+    border-radius: .5rem;
+    font-size: 1.6rem;
+}
+
+.container .btn__start{
+    padding: 1.2rem 1.5rem;
+    color: #fff;
+    background-color: #00bc8c;
+    border-color: #00bc8c;
+    border-radius: .6rem;
+    letter-spacing: .3rem;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+}
+.container .btn__start:hover,
+.container .btn__stop:hover {
+    background-color: #222222;
+}
+.container .btn__stop{
+    padding: 1.2rem 1.5rem;
+    color: #fff;
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+    border-radius: .6rem;
+    letter-spacing: .3rem;
+    cursor: pointer;
+    opacity: .8;
+    margin-bottom: 1.5rem;
+}
+.live{
+    margin-bottom: 2rem;
+    border: 1px solid #00bc8c;
+    border-radius: .5rem;
+
+}
+.live .top{
+    padding: 1rem 1.5rem;
+    color: #fff;
+    background-color: #00bc8c;
+    font-size: 1.4rem;
+}
+.live .top p span{
+    color: #00bc8c;
+    padding: .3rem .6rem;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.live .bot{
+    min-height: 3rem;
+    padding: 1rem;
+}
+
+.die{
+    margin-bottom: 2rem;
+    border: 1px solid #e74c3c;
+    border-radius: .5rem;
+
+}
+.die .top{
+    padding: 1rem 1.5rem;
+    color: #fff;
+    background-color: #e74c3c;
+    font-size: 1.4rem;
+}
+.die .top p span{
+    color: #e74c3c;
+    padding: .3rem .6rem;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.die .bot{
+    min-height: 3rem;
+    padding: 1rem;
+}
+.unknown{
+    margin-bottom: 2rem;
+    border: 1px solid #f39c12;
+    border-radius: .5rem;
+
+}
+.unknown .top{
+    padding: 1rem 1.5rem;
+    color: #fff;
+    background-color: #f39c12;
+    font-size: 1.4rem;
+}
+.unknown .top p span{
+    color: #f39c12;
+    padding: .3rem .6rem;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.unknown .bot{
+    min-height: 3rem;
+    padding: 1rem;
+}
